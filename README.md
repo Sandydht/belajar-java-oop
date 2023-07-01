@@ -112,3 +112,23 @@ classDiagram
 - Sama seperti method biasanya, kita juga bisa menambahkan return value, parameter dan method overloading di method yang ada di dalam block class
 - Untuk mengakses method tesebut, kita bisa menggunakan tanda titik (.) dan diikuti dengan nama method nya. Sama seperti mengakses field
 
+### Constructor
+- Saat kita membuat Object, maka kita seperti memanggil sebuah method, karena kita menggunakan kurung()
+- Di dalam class java, kita bisa membuat constructor, constructor adalah method yang akan dipanggil saat pertama kali object dibuat
+- Mirip seperti di method, kita bisa memberi parameter pada constructor
+- Nama constructor harus sama dengan nama class, dan tidak membutuhkan kata kunci void atau return value
+
+### Constructor Overloading
+- Sama seperti di method, di constructor pun kita bisa melakukan overloading
+- Kita bisa membuat constructor lebih dari satu, dengan syarat tipe data parameter harus berbeda, atau jumlah parameter harus berbeda
+
+### Memanggil Constructor Lain
+- Constructor bisa memanggil constructor lain
+- Hal ini memudahkan saat kita butuh menginisialisasi data dengan berbagai kemungkinan
+- Cara untuk memanggil constructor lain, kita hanya perlu memanggilnya seperti memanggil method, namun dengan kata kunci this
+
+### Variable Shadowing
+- Variable shadowing adalah kejadian ketika kita membuat nama variabel dengan nama yang sama di scope yang menutupi variable dengan nama yang sama di scope diatasnya
+- Ini biasa terjadi seperti kita membuat nama parameter di method sama dengan nama field di class
+- Saat terjadi variable shadowing, maka secara otomatis variable di scope diatasnya tidak bisa diakses
+
