@@ -1,5 +1,7 @@
 package Class;
 
-public class Person {
+class Class {
+    public static void main(String[] args) {
 
+    }
 }
